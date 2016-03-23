@@ -8,37 +8,12 @@ Type "copyright", "credits" or "license()" for more information.
 >>> my_teeth='white'
 >>> my_hair='Brown'
 >>> 
->>> print("Let's talk about %s." % my_name")
-      
-SyntaxError: EOL while scanning string literal
->>> print("Let's talk about %s.") % my_naem
-Let's talk about %s.
-Traceback (most recent call last):
-  File "<pyshell#9>", line 1, in <module>
-    print("Let's talk about %s.") % my_naem
-NameError: name 'my_naem' is not defined
->>> print("Let's talk about %s.") % my_name
-Let's talk about %s.
-Traceback (most recent call last):
-  File "<pyshell#10>", line 1, in <module>
-    print("Let's talk about %s.") % my_name
-TypeError: unsupported operand type(s) for %: 'NoneType' and 'str'
->>> print("Let's talk about %s."% my_name")
-      
-SyntaxError: EOL while scanning string literal
->>> print"Let's talk about %s."% my_name"
-SyntaxError: invalid syntax
->>> print "Let's talk about %s." % my_name
-SyntaxError: Missing parentheses in call to 'print'
->>> print ("Let's talk about %s." % my_name)
+>>> 
 Let's talk about zed A. Shaw.
 >>> print ("He's %d inches tall." % my_height)
 He's 74 inches tall.
 >>> print ("He's %d pounds heavy." % my_weight)
 He's 180 pounds heavy.
->>> print "Actually that's not too heavy."
-
-SyntaxError: Missing parentheses in call to 'print'
 >>> print ("Actually that's not too heavy.")
 Actually that's not too heavy.
 >>> print ("He's got %s eyes and %s hair." % (my_eyes, my_hair))
