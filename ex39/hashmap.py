@@ -1,3 +1,6 @@
+#-*-coding:utf8
+#hashmap에서는 대괄호를 안써도 프린트가 가능했다.
+
 def new(num_buckets=256):
     """Initializes a Map with the given number of buckets."""
     aMap = []
