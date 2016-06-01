@@ -5,8 +5,6 @@ def apple():
     print "I AM APPLES!"
 
 
-
-
 class Mystuff(object):
 
     def __init__(self):
